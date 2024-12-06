@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+    border-bottom: 2px solid greenyellow;
+    text-align: center;
+}
+
+main {
+    color: rgb(255, 164, 80);
+    margin: 10px 5px;
+    clear: both;
+}
+
+footer {
+    border-top: 2px solid greenyellow;
+    color: wheat;
+    position: static;
+    clear: both;
+}
+
+#Link {
+    color: aqua;
+}
+
+#navbar {
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    clear: both;
+
+}
+
+.List {
+    list-style-type: none;
+    text-align: center;
+}
+
+.List a {
+    text-decoration: none;
+    width: 46%;
+    height: 80px;
+    overflow: auto;
+    border: 2px solid rgb(189, 189, 189);
+    float: left;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    font-size: 40px;
+    color: rgb(26, 23, 9);
+    background-color: teal;
+    transform: translatex(40px);
+
+}
+
+.List a:hover:not(.active) {
+    background-color: aqua;
+}
+
+@font-face {
+    font-family: epic;
+    src: url(Jaro-Regular.ttf);
+}
