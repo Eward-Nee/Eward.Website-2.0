@@ -1,0 +1,42 @@
+section {
+    width: 500px;
+    border: 4px double turquoise;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+    float: left;
+    margin-bottom: 10px;
+    overflow: auto;
+
+}
+
+img {
+    width: 560px;
+    height: 690px;
+    float: inline-end;
+}
+
+section h3 {
+    color: rgb(21, 255, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width:1200px) {
+    section {
+        font-size: 100%;
+        font-weight: normal;
+        width: 50%;
+    }
+
+    img {
+        width: 49%;
+        height: auto;
+        aspect-ratio: 1/1;
+        transform: translatex(10px);
+    }
+
+    .List a {
+        transform: translatex(0px);
+    }
+}
