@@ -1,5 +1,30 @@
+section {
+    border: 2px solid green;
+    padding: 0px 10px;
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+
+article {
+    border: 2px solid red;
+    width: 50%;
+    display: inline-block;
+    height: 300px;
+}
+
 @media screen and (max-width:1200px) {
     .List a {
         transform: translatex(0px);
+    }
+
+    section {
+        height: auto;
+        aspect-ratio: 1/0.8;
+    }
+
+    article {
+        height: auto;
+        aspect-ratio: 1/0.8;
     }
 }
